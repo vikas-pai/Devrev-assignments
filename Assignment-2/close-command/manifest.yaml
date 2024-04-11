@@ -1,0 +1,27 @@
+# For reference: https://docs.devrev.ai/snap-ins/references/manifest.
+# Refactor the code based on your business logic.
+
+version: "2"
+name: "Close Issue Command"
+description: "Closes the issue that is move it to the completed stage using command"
+
+# This is the name displayed in DevRev where the Snap-In takes actions using the token of this service account.
+service_account:
+  display_name: DevRev Bot
+
+# Functions reference: https://docs.devrev.ai/snap-ins/references/functions.
+functions:
+  - name: on_work_creation
+    description: Closes the issue and all of its children issues
+
+# Automations reference: https://docs.devrev.ai/snap-ins/concepts#automation.
+commands:
+  - name: close
+    namespace: devrev
+    description: Closes the issue and all of its children issues.
+    surfaces:
+      - surface: discussions
+        object_types:
+          - issue
+    usage_hint: "Closes the issue and all of its children issues"
+    function: on_work_creation
