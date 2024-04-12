@@ -1,0 +1,2 @@
+# Inroduction
+These folders contain the code for creating a work item using Devrev-API (Assignment-1) and creating a snap-in package using Devrev-CLI (Assignment-2). The code is written in NodeJS and TypeScript. The code is written in a modular way to make it easy to understand and maintain. The code is well documented and the README.md file contains the instructions to run the code.Demonstration video is also provided for the code in Assignment-1 and Assignment-2.

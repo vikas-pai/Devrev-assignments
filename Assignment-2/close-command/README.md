@@ -1,3 +1,7 @@
+## Demonstration
+
+https://drive.google.com/file/d/1-ptEzK7iL5qowiyGHTcE6Uk6EWOgm3J4/view?usp=drive_link
+
 ## Installation and Usage of Close Command Snap-In
 
 This repository contains the code for the Close Command Snap-In. The Close Command Snap-In is a Snap-In that can be used to close an issue.The Snap-In is built using the DevRev CLI.
@@ -72,6 +76,4 @@ devrev snap_in draft --snap_in_version [snap-in-version-id]
 
 After exection of all the above commands, head over to the Snap-In section in the Settings toolbar of the DevRev UI to see the newly created Snap-In.Install the Snap-In. After the installation, click on any issue and head over to the Discussions tab. Type /close in the comment section to close the issue.
 
-### Demonstration
 
-https://drive.google.com/file/d/1-ptEzK7iL5qowiyGHTcE6Uk6EWOgm3J4/view?usp=drive_link
