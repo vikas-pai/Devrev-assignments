@@ -8,15 +8,6 @@ export async function handleEvent(event: any) {
     endpoint: APIBase,
     token: devrevPAT,
   });
-  //   var url="https://api.devrev.ai/parts.delete";
-  // var headers = {
-  //     "Content-Type": "application/json",
-  //     "Authorization": "Bearer " + devrevPAT;
-  // }
-  // var data = {
-  //     "part_id": event.payload.work_created.work.applies_to_part.id
-  // }
-  // axios.post(url, data, {headers: headers});
   var url = 'https://api.devrev.ai/works.update';
   var headers = {
     'Content-Type': 'application/json',
